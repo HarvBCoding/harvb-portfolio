@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Project() {
-    const [projects] = useState([
+    const [projects] = [
         {
             title: "Santa's Nice List",
             image: "./assets/projects/santas-nice-list.png",
@@ -38,7 +38,7 @@ function Project() {
             appLink: "https://harvbnotetaker.herokuapp.com/",
             repoLink: "https://github.com/HarvBCoding/note-taker/"
         }
-    ]);
+    ];
 
     return (
         <div className="flex-row">
