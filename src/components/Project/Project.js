@@ -28,13 +28,13 @@ function Project() {
         },
         {
             title: "Food Festival",
-            image: "/assets/projects/food-festival.jpeg",
+            image: "./assets/projects/food-festival.jpeg",
             appLink: "https://harvbcoding.github.io/food-festival/",
             repoLink: "https://github.com/HarvBCoding/food-festival"
         },
         {
             title: "Note Taker",
-            image: "/assets/projects/note-taker.jpeg",
+            image: "../assets/projects/note-taker.jpeg",
             appLink: "https://harvbnotetaker.herokuapp.com/",
             repoLink: "https://github.com/HarvBCoding/note-taker/"
         }
