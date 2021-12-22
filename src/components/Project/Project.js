@@ -1,42 +1,40 @@
 import React, {useState} from 'react';
-const santaImage = require("../../assets/projects/santas-nice-list.jpeg").default
-const drinkImage = require("../../assets/projects/git-me-a-drink.jpeg").default 
 
 function Project() {
     const [projects] = useState([
         {
+            id: "santas-nice-list",
             title: "Santa's Nice List",
-            image: santaImage,
             appLink: "https://santasnicelist.herokuapp.com/",
             repoLink: "https://github.com/harvbcoding/santaslist"
         },
         {
+            id: "git-me-a-drink",
             title: "Git Me a Drink",
-            image: drinkImage,
             appLink: "https://mateusverbar.github.io/gitmeadrink/",
             repoLink: "https://github.com/mateusverbar/gitmeadrink"
         },
         {
+            id: "budget-tracker",
             title: "Budget Tracker",
-            image: require("../../assets/projects/budget-tracker.jpeg").default,
             appLink: "https://harv-budget-tracker.herokuapp.com/",
             repoLink: "https://github.com/harvbcoding/budget-tracker"
         },
         {
+            id: "tech-blog",
             title: "Tech Blog",
-            image: require("../../assets/projects/tech-blog.jpeg").default,
             appLink: "https://harvbtechblog.herokuapp.com/",
             repoLink: "https://github.com/harvbcoding/techblog"
         },
         {
+            id: "food-festival",
             title: "Food Festival",
-            image: require("../../assets/projects/food-festival.jpeg").default,
             appLink: "https://harvbcoding.github.io/food-festival/",
             repoLink: "https://github.com/HarvBCoding/food-festival"
         },
         {
+            id: "note-taker",
             title: "Note Taker",
-            image: require("../../assets/projects/note-taker.jpeg").default,
             appLink: "https://harvbnotetaker.herokuapp.com/",
             repoLink: "https://github.com/HarvBCoding/note-taker/"
         }
@@ -47,7 +45,7 @@ function Project() {
             {projects.map((project) => (
                 <a href={project.appLink} key={project.title}>
                   <img 
-                    src={project.image}
+                    src={require(`../../assets/projects/${project.id}.jpeg`)}
                     alt={project.title}
                     className="img-thumbnail mx-1"
                   />
@@ -58,4 +56,3 @@ function Project() {
 }
 
 export default Project;
-// return list of projects to map through
