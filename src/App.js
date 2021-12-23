@@ -10,19 +10,19 @@ import './App.css';
 function App() {
   const [sections] = useState([
     {
-      name: 'about',
+      name: 'About',
       component: <About />
     },
     {
-      name: 'portfolio',
+      name: 'Portfolio',
       component: <Portfolio />
     },
     {
-      name: 'resume',
+      name: 'Resume',
       component: <Resume />
     },
     {
-      name: 'contact',
+      name: 'Contact',
       component: <Contact />
     }
   ])

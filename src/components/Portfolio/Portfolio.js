@@ -5,7 +5,7 @@ function Portfolio() {
 
     return (
         <section>
-            <h1 id="portfolio">What I've Been Working On</h1>
+            <h1 id="portfolio">Projects I've Been Working On</h1>
             <Project />
         </section>
     )
