@@ -4,7 +4,7 @@ import About from '../src/components/About/About'
 import Contact from '../src/components/Contact/Contact'
 import Portfolio from '../src/components/Portfolio/Portfolio'
 import Resume from '../src/components/Resume/Resume'
-// import Footer from '../src/components/Footer/Footer'
+import Footer from '../src/components/Footer/Footer'
 import './App.css';
 
 function App() {
@@ -38,6 +38,7 @@ function App() {
       <main>
         {currentSection.component}
       </main>
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import Container from "@mui/material/Container"
+import TextField from "@mui/material/TextField";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import SendIcon from '@mui/icons-material/Send';
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
@@ -39,44 +44,56 @@ function Contact() {
   }
 
   return (
-    <section>
-      <h1>Contact Me</h1>
-      <form id="contact" onSubmit={handleSubmit}>
+    <Container
+      component="form"
+      sx={{'& .MuiTextField-root': { m: 3, width: '35ch' }, pb: 50}}
+      align="center"
+      noValidate
+      onSubmit={handleSubmit}
+      autoComplete="off">
+      <Typography
+        variant="h2"
+        align="center"
+        sx={{p: 5}}
+        gutterBottom>
+            Get in Touch
+        </Typography>
         <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            defaultValue={name}
+          <TextField
+            id="name"
+            label="Name"
+            multiline
             onBlur={handleChange}
             name="name"
-          />
+          ></TextField>
         </div>
         <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            defaultValue={email}
+          <TextField
+            id="email"
+            label="Email"
+            multiline
             onBlur={handleChange}
             name="email"
-          />
+          ></TextField>
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            name="message"
-            defaultValue={message}
+          <TextField
+            id="message"
+            label="Message"
+            multiline
+            minRows={5}
+            maxRows={6}
             onBlur={handleChange}
-            rows="5"
-          />
+            name="message"
+          ></TextField>
         </div>
         {errorMessage && (
             <div>
                 <p className="error-text">{errorMessage}</p>
             </div>
         )}
-        <button type="submit">Submit</button>
-      </form>
-    </section>
+        <Button color="secondary" size="large" variant="outlined" type="submit" endIcon={<SendIcon fontSize="large" />}>Submit </Button>
+    </Container>
   );
 }
 

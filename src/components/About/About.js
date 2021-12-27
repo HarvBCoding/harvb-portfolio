@@ -31,7 +31,7 @@ function About() {
                 you for taking the time to view my work. I am a Saint Louis based
                 full stack developer attending coding bootcamp at Washington
                 Unversity, also Saint Louis based. I am a detail-oriented, creative
-                person who is excited about coding. I've always been someone who
+                person who is excited about web development. I've always been someone who
                 likes to make something beautiful out of nothing and web development
                 gives me the opportunity to make something beautiful every day.
             </Typography>
