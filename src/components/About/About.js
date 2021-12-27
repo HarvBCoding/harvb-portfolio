@@ -16,18 +16,18 @@ function About() {
         Full Stack Developer
       </Typography>
 
-      <Grid container alignItems="center" spacing={1}>
+      <Grid container alignItems="center">
         <Grid item xs>
-            <Container>
-                <img src={coverPhoto} style={{ height: "50rem" }} alt="cover" />
+            <Container align="center">
+                <img src={coverPhoto} style={{ height: "50rem", width: "45rem" }} alt="cover" />
             </Container>
         </Grid>
         <Grid item xs={6}>
-          <Container>
-            <Typography variant="h3" align="center" sx={{ pb: "2rem"}} gutterBottom>
+          <Container className="background">
+            <Typography className="about-title" variant="h3" align="center" sx={{ pb: "2rem"}} gutterBottom>
                 Get to Know Me
             </Typography>
-            <Typography variant="subtitle1" align="center" sx={{ mx: "1.5rem" }}>
+            <Typography  className="about-content" variant="subtitle1" align="center" sx={{ mx: "1.5rem" }}>
                 Hi! I am Breania Harvey, though I prefer to be called Bre. Thank
                 you for taking the time to view my work. I am a Saint Louis based
                 full stack developer attending coding bootcamp at Washington

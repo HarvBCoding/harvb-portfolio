@@ -7,7 +7,7 @@ function Portfolio() {
 
     return (
         <Box sx={{ p: "5rem"}}>
-            <Typography align="center" variant="h2" sx={{pb: "5rem"}}>Projects I've Been Working On</Typography>
+            <Typography className="project-title" align="center" variant="h2" sx={{pb: "5rem"}}>Projects I've Been Working On</Typography>
             <Project />
         </Box>
     )

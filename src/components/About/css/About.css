@@ -5,16 +5,31 @@
     --sky-blue: #b2c5f4;
     --darker-purple: #aa86d3;
     --indigo-blue: #92a4f7;
-    --dark-grey: #5d5d5d;
+    --dark-grey: #4d4d4d;
 }
 
 .main-title {
     font-family: "Sacramento";
-    text-decoration: underline var(--darker-purple) 2px;
+    text-decoration: underline #92a5f765 2px;
+    color: var(--dark-grey);
 }
 
 .sub-title {
     font-family: "Sacramento";
     font-size: 3.5rem;
-    text-decoration: underline var(--darker-purple) 2px;
+    text-decoration: underline #92a5f765 2px;
+    color: var(--dark-grey);
+}
+
+.about-title {
+    font-family: "Give You Glory";
+    text-decoration: underline #aa86d3a9 2px;
+    color: var(--dark-grey);
+}
+
+.about-content {
+    font-family: "Give You Glory";
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--dark-grey);
 }

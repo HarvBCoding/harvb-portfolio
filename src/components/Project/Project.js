@@ -73,12 +73,12 @@ function Project() {
           sx={{ width: "100%", height: "100%", overflowY: 'scroll'}}
           variant="quilted"
           cols={3}
-          rowHeight={551}
+          rowHeight={525}
         >
             {projects.map((project) => (
                 <ImageListItem key={project.image} cols={project.cols || 1} rows={project.rows || 1}>
                     <img 
-                        {...srcset(project.image, 551, project.rows, project.cols)}
+                        {...srcset(project.image, 525, project.rows, project.cols)}
                         alt={project.title}
                         loading="lazy"
                         onClick={() => (window.location.href = project.appLink)}

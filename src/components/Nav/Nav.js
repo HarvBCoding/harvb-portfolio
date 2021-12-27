@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { Tabs, Tab } from '@mui/material';
+import {  Tabs, Tab } from '@mui/material';
+import "./css/Nav.css";
+
 
 function LinkTab(props) {
     return (
@@ -23,9 +25,9 @@ function NavTabs(props) {
   return (
     <header>
       <nav>
-        <Tabs value={value} onChange={handleChange} aria-label="nav tabs">
+        <Tabs centered className="navigation" value={value} onChange={handleChange} aria-label="nav tabs">
             {sections.map((section) => (
-                <LinkTab label={section.name} href={`#${section.name}`} className={`mx-2 ${currentSection.name === section.name && 'navActive'}`} onClick={() => {
+                <LinkTab key={section.name} label={section.name} href={`#${section.name}`} className={`${currentSection.name === section.name && 'navActive'} nav-tabs`} sx={{px: 6}} onClick={() => {
                     setCurrentSection(section);
                 }}/>
             ))}
