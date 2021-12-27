@@ -6,7 +6,7 @@ import Project from "../Project/Project";
 function Portfolio() {
 
     return (
-        <Box sx={{p: "5rem"}}>
+        <Box sx={{ p: "5rem"}}>
             <Typography align="center" variant="h2" sx={{pb: "5rem"}}>Projects I've Been Working On</Typography>
             <Project />
         </Box>
