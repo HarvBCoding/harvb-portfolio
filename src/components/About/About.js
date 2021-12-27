@@ -4,14 +4,15 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import coverPhoto from "../../assets/cover/illustratedpropic.jpeg";
 import { Container } from "@mui/material";
+import "./css/About.css";
 
 function About() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <Typography variant="h1" component="h2" align="center" gutterBottom>
+      <Typography className="main-title" variant="h1" component="h2" align="center" sx={{pt: 15}} gutterBottom>
         Hello, I'm Bre Harvey
       </Typography>
-      <Typography variant="h4" align="center" sx={{ pb: "5rem"}} gutterBottom>
+      <Typography className="sub-title" variant="h3" align="center" sx={{ pb: "5rem"}} gutterBottom>
         Full Stack Developer
       </Typography>
 
