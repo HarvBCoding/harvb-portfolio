@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/harvb-portfolio/static/css/main.91ea867b.css",
+    "main.js": "/harvb-portfolio/static/js/main.d9a77f21.js",
+    "static/js/787.31271dfa.chunk.js": "/harvb-portfolio/static/js/787.31271dfa.chunk.js",
+    "static/media/illustratedpropic.jpeg": "/harvb-portfolio/static/media/illustratedpropic.c9e09b15b616020865f8.jpeg",
+    "static/media/2021BreResume.pdf": "/harvb-portfolio/static/media/2021BreResume.ab2a47a1ff6454d10d6f.pdf",
+    "index.html": "/harvb-portfolio/index.html",
+    "main.91ea867b.css.map": "/harvb-portfolio/static/css/main.91ea867b.css.map",
+    "main.d9a77f21.js.map": "/harvb-portfolio/static/js/main.d9a77f21.js.map",
+    "787.31271dfa.chunk.js.map": "/harvb-portfolio/static/js/787.31271dfa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91ea867b.css",
+    "static/js/main.d9a77f21.js"
+  ]
+}
