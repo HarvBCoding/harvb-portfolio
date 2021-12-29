@@ -1,0 +1,10 @@
+.footer {
+    background-color: #b2c5f493;
+}
+
+.footer-name {
+    font-family: "Give You Glory";
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--dark-grey);
+};

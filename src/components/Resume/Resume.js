@@ -6,10 +6,9 @@ import resumeFile from "../../assets/resume/2021BreResume.pdf";
 function Resume() {
     return (
         <Container align="center">
-            {/* <h1 id="resume">Bre's Resume</h1> */}
-            <Typography
-              variant="h2" align="center" sx={{ p: "4rem" }} gutterBottom
-            >Bre's Resume and Skills</Typography>
+            <Typography className="title" align="center" variant="h2" sx={{p: "5rem"}}>
+                Skills and Resume
+            </Typography>
             <iframe 
                 id="resume-pdf" 
                 title="Bre Resume" 
@@ -17,7 +16,7 @@ function Resume() {
                 frameboarder="1"
                 scrolling="auto"
                 height="1100"
-                width="80%"></iframe>
+                width="100%"></iframe>
         </Container>
     )
 }
