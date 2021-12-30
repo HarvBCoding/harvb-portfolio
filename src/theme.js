@@ -1,6 +1,6 @@
-import { createMuiTheme } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles';
 
-const theme = createMuiTheme({
+const theme = createTheme({
     typography: {
         h1: {
             fontFamily: '"Sacramento", Open Sans',
