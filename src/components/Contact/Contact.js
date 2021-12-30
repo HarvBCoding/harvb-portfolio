@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 import { validateEmail } from "../../utils/helpers";
-import "./css/Contact.css";
+// import "./css/Contact.css";
 
 const ContactForm = styled(TextField)({
   "& label.Mui-focused": {
