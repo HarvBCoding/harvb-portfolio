@@ -1,6 +1,6 @@
 {
   "homepage": "http://harvbcoding.github.io/harvb-portfolio/",
-  "name": "harvbcoding.github.io",
+  "name": "harvb-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
