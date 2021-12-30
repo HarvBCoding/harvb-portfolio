@@ -5,7 +5,7 @@ import IconButton from "@mui/material/IconButton";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Box from "@mui/material/Box";
-// import "./css/Footer.css";
+import "./css/Footer.css";
 
 function Footer() {
   return (

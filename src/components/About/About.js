@@ -4,7 +4,7 @@ import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import coverPhoto from "../../assets/cover/illustratedpropic.jpeg";
 import { Container } from "@mui/material";
-// import "./css/About.css";
+import "./css/About.css";
 
 function About() {
   return (

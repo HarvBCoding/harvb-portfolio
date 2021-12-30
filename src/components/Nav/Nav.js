@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {  Tabs, Tab } from '@mui/material';
-// import "./css/Nav.css";
+import "./css/Nav.css";
 
 
 function LinkTab(props) {
