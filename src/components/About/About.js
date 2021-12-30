@@ -25,7 +25,7 @@ function About() {
         <Grid item xs={5}>
           <Container className="background">
             <Typography className="about-title" variant="h3" align="center" sx={{ pb: "2rem"}} gutterBottom>
-                Get to Know Me
+                Get To Know Me
             </Typography>
             <Typography  className="about-content" variant="subtitle1" align="center">
                 Hi! I am Breania Harvey, though I prefer to be called Bre. Thank

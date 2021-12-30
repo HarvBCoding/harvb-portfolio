@@ -15,7 +15,6 @@ body {
   background-image: linear-gradient(to bottom right, var(--peach-pink), var(--pastel-pink), var(--lavender), var(--sky-blue));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Sacramento';
 }
 
 li {
