@@ -12,10 +12,22 @@
 
 body {
   margin: 0;
-  background-image: linear-gradient(to bottom right, var(--peach-pink), var(--pastel-pink), var(--lavender), var(--sky-blue));
+  background: linear-gradient(to bottom right, var(--peach-pink) 0%, var(--pastel-pink) 25%, var(--lavender) 75%, var(--sky-blue) 100%);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Sacramento', cursive;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%
+  }
 }
 
 li {
