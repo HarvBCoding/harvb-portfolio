@@ -10,13 +10,18 @@ import "./css/About.css";
 
 const fadeInAnimation = keyframes`${fadeIn}`;
 
-const FadeInDiv = styled.div`
-  animation: 3s ${fadeInAnimation};
+const TitleFadeInDiv = styled.div`
+  animation: 1s ${fadeInAnimation};
+`;
+
+const ContentFadeInDiv = styled.div`
+  animation: 5s ${fadeInAnimation};
 `;
 
 function About() {
   return (
     <Box sx={{ flexGrow: 1, px: 10, pt: 15, pb: 30 }}>
+      <TitleFadeInDiv>
       <Typography
         className="title"
         variant="h1"
@@ -36,7 +41,8 @@ function About() {
       >
         Full Stack Developer
       </Typography>
-      <FadeInDiv>
+      </TitleFadeInDiv>
+      <ContentFadeInDiv>
         <Grid
           container
           sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
@@ -79,7 +85,7 @@ function About() {
             </Container>
           </Grid>
         </Grid>
-      </FadeInDiv>
+      </ContentFadeInDiv>
     </Box>
   );
 }
