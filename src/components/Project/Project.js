@@ -3,8 +3,8 @@ import {ImageList, ImageListItem, ImageListItemBar} from '@mui/material'
 
 function srcset(image, size, rows = 1, cols = 1) {
     return {
-      src: `https://res.cloudinary.com/dceprxjzq/image/upload/w_${size * cols},h_${size * rows},c_lfill/${image}.jpg`,
-      srcSet: `https://res.cloudinary.com/dceprxjzq/image/upload/w_${size * cols},h_${size * rows},c_lfill/${image}.jpg`,
+      src: `https://res.cloudinary.com/dceprxjzq/image/upload/w_${size * cols},h_${size * rows},c_lfill/v1640574160/Portfolio/${image}.jpg`,
+      srcSet: `https://res.cloudinary.com/dceprxjzq/image/upload/w_${size * cols},h_${size * rows},c_lfill/v1640574160/Portfolio/${image}.jpg`
     };
   }
 
@@ -30,11 +30,11 @@ function Project() {
             cols: 2
         },
         {
-            image: "tech-blog",
-            title: "Tech Blog",
-            description: "A class assignment creating a hypothetical tech blog site",
-            appLink: "https://harvbtechblog.herokuapp.com/",
-            repoLink: "https://github.com/harvbcoding/techblog",
+            image: "marauders_trivia",
+            title: "Potter's Marauders Trivia",
+            description: "A project where I collaborated with 3 other developers to create a Harry Potter trivia app",
+            appLink: "https://stark-plains-49295.herokuapp.com/",
+            repoLink: "https://github.com/Hmndtyphn/harry-potter-house",
             rows: 1,
             cols: 2
         },
