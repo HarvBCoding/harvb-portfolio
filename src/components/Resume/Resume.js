@@ -1,7 +1,7 @@
 import React from "react";
 import Container from '@mui/material/Container'
 import Typography from "@mui/material/Typography";
-import resumeFile from "../../assets/resume/2021BreResume.pdf";
+import resumeFile from "../../assets/resume/2022BreResume.pdf";
 
 function Resume() {
     return (
