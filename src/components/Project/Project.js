@@ -9,54 +9,42 @@ function Project() {
             title: "Budget Tracker",
             description: "An app to track a budget on or offline",
             appLink: "https://harv-budget-tracker.herokuapp.com/",
-            repoLink: "https://github.com/harvbcoding/budget-tracker",
-            rows: 1,
-            cols: 1
+            repoLink: "https://github.com/harvbcoding/budget-tracker"
         },
         {
             image: "santas-nice-list",
             title: "Santa's Nice List",
             description: "A password protected app for your Christmas List",
             appLink: "https://santasnicelist.herokuapp.com/",
-            repoLink: "https://github.com/harvbcoding/santaslist",
-            rows: 1,
-            cols: 2
+            repoLink: "https://github.com/harvbcoding/santaslist"
         },
         {
             image: "marauders_trivia",
             title: "Potter's Marauders Trivia",
             description: "A project where I collaborated with 3 other developers to create a Harry Potter trivia app",
             appLink: "https://stark-plains-49295.herokuapp.com/",
-            repoLink: "https://github.com/Hmndtyphn/harry-potter-house",
-            rows: 1,
-            cols: 2
+            repoLink: "https://github.com/Hmndtyphn/harry-potter-house"
         },
         {
             image: "git-me-a-drink",
             title: "Git Me a Drink",
             description: "An app to return cocktails based on selected alochol preference",
             appLink: "https://mateusverbar.github.io/gitmeadrink/",
-            repoLink: "https://github.com/mateusverbar/gitmeadrink",
-            rows: 1,
-            cols: 1
+            repoLink: "https://github.com/mateusverbar/gitmeadrink"
         },
         {
             image: "food-festival",
             title: "Food Festival",
             description: "A class assignment creating a hypthetical PWA site for a food festival",
             appLink: "https://harvbcoding.github.io/food-festival/",
-            repoLink: "https://github.com/HarvBCoding/food-festival",
-            rows: 1,
-            cols: 1
+            repoLink: "https://github.com/HarvBCoding/food-festival"
         },
         {
             image: "note-taker",
             title: "Note Taker",
             description: "An app that saves notes",
             appLink: "https://harvbnotetaker.herokuapp.com/",
-            repoLink: "https://github.com/HarvBCoding/note-taker/",
-            rows: 1,
-            cols: 2
+            repoLink: "https://github.com/HarvBCoding/note-taker/"
         }
     ]);
 
