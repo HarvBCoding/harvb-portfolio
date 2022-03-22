@@ -47,36 +47,34 @@ function About() {
           alignItems="center"
         >
           <Grid item md={12} lg={7}>
-              <img
-                src='https://res.cloudinary.com/dceprxjzq/image/upload/c_fill,h_650,w_650/v1647915086/Portfolio/illustrated-cover-image.jpg'
-                alt="cover"
-              />
+            <img
+              src="https://res.cloudinary.com/dceprxjzq/image/upload/c_fill,h_650,w_650/v1647915086/Portfolio/illustrated-cover-image.jpg"
+              alt="cover"
+            />
           </Grid>
           <Grid item md={12} lg={5}>
-              <Typography
-                className="about-title"
-                variant="h3"
-                align="center"
-                sx={{ pb: "2rem" }}
-                gutterBottom
-              >
-                Get To Know Me
-              </Typography>
-              <Typography
-                className="about-content"
-                variant="subtitle1"
-                align="center"
-              >
-                Hi! I am Breania Harvey, but you can call me Bre. Thank you for
-                taking the time to view my work. I am a Saint Louis based full
-                stack developer leveraging skill sets developed through an
-                accelerated full stack web development bootcamp with Washington
-                University-Saint Louis. I am a detail-oriented, creative person
-                who is excited about web development. I've always been someone
-                who likes to make something beautiful out of nothing and web
-                development gives me the opportunity to make something beautiful
-                every day.
-              </Typography>
+            <Typography
+              className="about-title"
+              variant="h3"
+              align="center"
+              sx={{ pb: "2rem" }}
+              gutterBottom
+            >
+              Get To Know Me
+            </Typography>
+            <Typography
+              className="about-content"
+              variant="subtitle1"
+              align="center"
+            >
+              Hi! I am Breania Harvey, but you can call me Bre. Thank you for
+              taking the time to view my work. I am a Saint Louis based full
+              stack developer leveraging skill sets developed through an
+              accelerated full stack web development bootcamp with Washington
+              University-Saint Louis. I am a detail-oriented, creative person
+              who is passionate about web development. I look forward to joining
+              a team to create a better experience for users.
+            </Typography>
           </Grid>
         </Grid>
       </ContentFadeInDiv>

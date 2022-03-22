@@ -1,13 +1,6 @@
 import React, {useState} from 'react';
 import {ImageList, ImageListItem, ImageListItemBar} from '@mui/material'
 
-function srcset(image, size, rows = 1, cols = 1) {
-    return {
-      src: `https://res.cloudinary.com/dceprxjzq/image/upload/w_${size * cols},h_${size * rows},c_lfill/v1640574160/Portfolio/${image}.jpg`,
-      srcSet: `https://res.cloudinary.com/dceprxjzq/image/upload/w_${size * cols},h_${size * rows},c_lfill/v1640574160/Portfolio/${image}.jpg`
-    };
-  }
-
 function Project() {
 
     const [projects] = useState([
@@ -70,15 +63,15 @@ function Project() {
     return (
 
         <ImageList
-          sx={{ width: "100%", height: "100%", overflowY: 'scroll'}}
-          variant="quilted"
+          sx={{ width: "100%", height: "100%"}}
           cols={3}
-          rowHeight={525}
+          rowHeight={400}
         >
             {projects.map((project) => (
-                <ImageListItem key={project.image} cols={project.cols || 1} rows={project.rows || 1}>
+                <ImageListItem key={project.image}>
                     <img 
-                        {...srcset(project.image, 525, project.rows, project.cols)}
+                        src= {`https://res.cloudinary.com/dceprxjzq/image/upload/w_200,h_200,c_lfill,f_auto/v1640574160/Portfolio/${project.image}.jpg`}
+                        srcSet= {`https://res.cloudinary.com/dceprxjzq/image/upload/w_200,h_200,c_lfill,f_auto/v1640574160/Portfolio/${project.image}.jpg 2x`}
                         alt={project.title}
                         loading="lazy"
                         onClick={() => (window.location.href = project.appLink)}
