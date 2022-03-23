@@ -1,45 +1,36 @@
-import React, { useState } from 'react';
-import Nav from '../src/components/Nav/Nav'
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+
 import About from '../src/components/About/About'
 import Contact from '../src/components/Contact/Contact'
 import Portfolio from '../src/components/Portfolio/Portfolio'
 import Resume from '../src/components/Resume/Resume'
+
+import Nav from '../src/components/Nav/Nav'
 import Footer from '../src/components/Footer/Footer'
+
+import Home from '../src/components/Home/Home'
 import './App.css';
 
 function App() {
-  const [sections] = useState([
-    {
-      name: 'About',
-      component: <About />
-    },
-    {
-      name: 'Portfolio',
-      component: <Portfolio />
-    },
-    {
-      name: 'Resume',
-      component: <Resume />
-    },
-    {
-      name: 'Contact',
-      component: <Contact />
-    }
-  ])
-
-  const [ currentSection, setCurrentSection ] = useState(sections[0])
   
   return (
+    <Router>
     <div>
-      <Nav 
-        sections = {sections}
-        currentSection = {currentSection}
-        setCurrentSection = {setCurrentSection} />
-      <main>
-        {currentSection.component}
-      </main>
+      <Nav />
+        <div>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/contactme" component={Contact} />
+          </Switch>
+        </div>
       <Footer />
     </div>
+    </Router>
   );
 }
 

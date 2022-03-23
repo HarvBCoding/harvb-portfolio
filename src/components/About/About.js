@@ -23,7 +23,6 @@ function About() {
         <Typography
           className="title"
           variant="h1"
-          component="h2"
           align="center"
           sx={{ pt: 5 }}
           gutterBottom
