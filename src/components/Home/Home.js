@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
-
+import "./css/Home.css";
 // import stock photo for the background
 // h1 title 'Hi there, I'm Bre'
 // subtitle 'Saint Louis, Missouri based full stack developer working remotely'
