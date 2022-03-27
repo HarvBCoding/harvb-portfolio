@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { styled } from "@mui/material/styles";
 import { Tabs, Tab } from "@mui/material";
 import "./css/Nav.css";
@@ -47,20 +48,24 @@ const StyledLink = styled((props) => <LinkTab {...props} />)(({ theme }) => ({
 function NavTabs() {
   const [sections] = useState([
     {
+      name: "Home",
+      link: "/"
+    },
+    {
       name: "About",
-      link: "about",
+      link: "/about",
     },
     {
       name: "Portfolio",
-      link: "portfolio",
+      link: "/portfolio",
     },
     {
       name: "Resume",
-      link: "resume",
+      link: "/resume",
     },
     {
       name: "Contact Me",
-      link: "contactme",
+      link: "/contactme",
     },
   ]);
   const [value, setValue] = useState(0);
@@ -85,8 +90,9 @@ function NavTabs() {
               label={section.name}
               href={`/${section.link}`}
               className={`${section.name && "navActive"} nav-tabs`}
-              sx={{ px: 6 }}
-            />
+              sx={{ px: 6 }}>
+                <Link to={`${section.link}`} />
+              </StyledLink>
           ))}
         </StyledTabs>
       </nav>

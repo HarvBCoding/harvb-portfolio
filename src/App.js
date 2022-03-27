@@ -20,10 +20,10 @@ function App() {
           <div>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="about" component={About} />
-              <Route exact path="portfolio" component={Portfolio} />
-              <Route exact path="resume" component={Resume} />
-              <Route exact path="contactme" component={Contact} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/resume" component={Resume} />
+              <Route exact path="/contactme" component={Contact} />
             </Switch>
           </div>
         <Footer />
