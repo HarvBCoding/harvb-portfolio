@@ -1,103 +1,59 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { styled } from "@mui/material/styles";
-import { Tabs, Tab } from "@mui/material";
+import { AppBar, Box, Toolbar, Typography, Container, Avatar } from "@mui/material";
 import "./css/Nav.css";
 
-const StyledTabs = styled((props) => (
-  <Tabs
-    {...props}
-    TabIndicatorProps={{ children: <span className="MuiTabs-indicatorSpan" /> }}
-  />
-))({
-  "& .MuiTabs-indicator": {
-    display: "flex",
-    backgroundColor: "var(--darker-purple)",
-    "& .MuiTabs-indicatorSpan": {
-      backgroundColor: "transparent",
-    }
+const pages = [
+  {
+    name: "About",
+    link: "/about",
   },
-  "& .MuiTabs-root": {
-    position: 'absolute',
-    right: '0'
-  }
-});
+  {
+    name: "Portfolio",
+    link: "/portfolio",
+  },
+  {
+    name: "Resume",
+    link: "/resume",
+  },
+  {
+    name: "Contact Me",
+    link: "/contactme",
+  },
+];
 
-function LinkTab(props) {
+const NavAppBar = () => {
   return (
-    <Tab
-      component="a"
-      onClick={(event) => {
-        event.preventDefault();
-      }}
-      {...props}
-    />
+    <AppBar position="static">
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+          <Box sx={{ flexGrow: 0, pr: 3 }}>
+            <Link to="/">
+              <Avatar
+                alt="Bre Harvey"
+                src="https://res.cloudinary.com/dceprxjzq/image/upload/c_fill,h_650,w_650/v1647915086/Portfolio/illustrated-cover-image.jpg"
+                sx={{ width: 56, height: 56 }}
+              />
+            </Link>
+          </Box>
+
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex' } }}>
+           {pages.map((page) => (
+             <Link key={page.name} to={`${page.link}`}>
+              <Typography
+                variant="h6"
+                align="center"
+                sx={{ px: 5 }}
+              >
+                {`${page.name}`}
+              </Typography>
+             </Link>
+           ))}
+          </Box>
+        </Toolbar>
+      </Container>
+    </AppBar>
   );
 }
-
-const StyledLink = styled((props) => <LinkTab {...props} />)(({ theme }) => ({
-  fontFamily: "Give You Glory",
-  fontWeight: "Bold",
-  color: "#8550C0",
-  "&.Mui-selected": {
-    color: "var(--darker-purple)",
-    fontWeight: "Bold",
-  },
-}));
-
-function NavTabs() {
-  const [sections] = useState([
-    {
-      name: "Home",
-      link: "/"
-    },
-    {
-      name: "About",
-      link: "/about",
-    },
-    {
-      name: "Portfolio",
-      link: "/portfolio",
-    },
-    {
-      name: "Resume",
-      link: "/resume",
-    },
-    {
-      name: "Contact Me",
-      link: "/contactme",
-    },
-  ]);
-  const [value, setValue] = useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
-  return (
-    <header>
-      <nav>
-        <StyledTabs
-          centered
-          className="navigation"
-          value={value}
-          onChange={handleChange}
-          aria-label="nav tabs"
-        >
-          {sections.map((section) => (
-            <StyledLink
-              key={section.name}
-              label={section.name}
-              href={`/${section.link}`}
-              className={`${section.name && "navActive"} nav-tabs`}
-              sx={{ px: 6 }}>
-                <Link to={`${section.link}`} />
-              </StyledLink>
-          ))}
-        </StyledTabs>
-      </nav>
-    </header>
-  );
-}
-
-export default NavTabs;
+export default NavAppBar;

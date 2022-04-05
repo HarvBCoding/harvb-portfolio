@@ -8,8 +8,11 @@ import "./css/Home.css";
 const Home = () => {
   return (
     <div className="home-page">
+      <Typography variant="h1" align="center">
+          Hi,
+      </Typography>
       <Typography variant="h1" align="center" gutterBottom>
-          Hi there, I'm Bre
+          I'm Bre
       </Typography>
     </div>
   );

@@ -4,6 +4,7 @@ const theme = createTheme({
     typography: {
         h1: {
             fontFamily: '"Sacramento", Open Sans',
+            color: 'var(--dark-grey)'
         },
         h2: {
             fontFamily: '"Sacramento", Open Sans',
