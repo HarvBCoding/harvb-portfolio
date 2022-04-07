@@ -13,6 +13,10 @@ const theme = createTheme({
             fontFamily: '"Sacramento", Open Sans',
             fontSize: '3.4rem'
         },
+        h5: {
+            fontFamily: '"Sacramento", Open Sans',
+            fontSize: "2.75rem",
+        },
         h6: {
             fontFamily: '"Give You Glory", Open Sans'
         },
