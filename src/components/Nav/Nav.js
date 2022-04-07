@@ -4,6 +4,10 @@ import { styled } from "@mui/material/styles";
 import { AppBar, Box, Toolbar, Typography, Container, Avatar } from "@mui/material";
 import "./css/Nav.css";
 
+const NavBar = styled(AppBar)(({ theme }) => ({
+  backgroundColor: "#fcd6c190"
+}))
+
 const pages = [
   {
     name: "About",
@@ -25,10 +29,10 @@ const pages = [
 
 const NavAppBar = () => {
   return (
-    <AppBar position="static">
+    <NavBar position="absolute">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Box sx={{ flexGrow: 0, pr: 3 }}>
+          <Box sx={{ flexGrow: 0, pr: 3, py: 1 }}>
             <Link to="/">
               <Avatar
                 alt="Bre Harvey"
@@ -53,7 +57,7 @@ const NavAppBar = () => {
           </Box>
         </Toolbar>
       </Container>
-    </AppBar>
+    </NavBar>
   );
 }
 export default NavAppBar;

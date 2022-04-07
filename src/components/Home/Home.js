@@ -1,20 +1,26 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
+import Box from '@mui/material/Box';
 import "./css/Home.css";
-// import stock photo for the background
-// h1 title 'Hi there, I'm Bre'
-// subtitle 'Saint Louis, Missouri based full stack developer working remotely'
 
 const Home = () => {
   return (
-    <div className="home-page">
-      <Typography variant="h1" align="center">
+    <Box className="home-page" sx={{ display: "flex-inline" }}>
+      <Box sx={{ pt: 20 }}>
+        <Typography variant="h1" align="center" gutterBottom>
           Hi,
-      </Typography>
-      <Typography variant="h1" align="center" gutterBottom>
-          I'm Bre
-      </Typography>
-    </div>
+        </Typography>
+        <Typography variant="h1" align="center" gutterBottom>
+          I'm Bre.
+        </Typography>
+        <Typography variant="subtitle1" align="center" gutterBottom>
+          A St. Louis based full stack developer working remotely.
+        </Typography>
+        <Typography variant="subtitle1" align="center" gutterBottom>
+          Click around and get to know me a little better.
+        </Typography>
+      </Box>
+    </Box>
   );
 };
 
