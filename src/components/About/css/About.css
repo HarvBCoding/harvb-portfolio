@@ -1,19 +1,6 @@
 .title {
     font-family: "Sacramento";
-    text-decoration: underline #92a5f765 2px;
-    color: var(--dark-grey);
-}
-
-.sub-title {
-    font-family: "Sacramento";
-    font-size: 3.5rem;
-    text-decoration: underline #92a5f765 2px;
-    color: var(--dark-grey);
-}
-
-.about-title {
-    font-family: "Give You Glory";
-    text-decoration: underline #aa86d3a9 2px;
+    text-decoration: underline var(--gold) 2px;
     color: var(--dark-grey);
 }
 

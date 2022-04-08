@@ -1,7 +1,7 @@
 a {
-    color: #983000;
+    color: var(--dark-grey);
 }
 
 a:visited {
-    color: #7B2C2C;
+    color: #a6892a;
 }

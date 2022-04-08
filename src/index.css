@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Handlee&family=Sacramento&family=Shalimar&display=swap");
 
-:root {
+/* :root {
   --pastel-pink: #f6c3b9;
   --lavender: #c699f8;
   --peach-pink: #f6dedb;
@@ -8,13 +8,23 @@
   --darker-purple: #aa86d3;
   --indigo-blue: #92a4f7;
   --dark-grey: #5d5d5d;
+} */
+
+:root {
+  --cloud-pink: #fcd6c1;
+  --sky-pink: #fabc9b;
+  --dull-pink: #e6ab90;
+  --grass-green: #e0de8c;
+  --hill-green: #d0cf4f;
+  --tree-green: #626701;
+  --dark-grey: #5d5d5d;
+  --gold: #D4AF37;
 }
 
 body {
   margin: 0;
-  background: linear-gradient(to bottom right, var(--peach-pink) 0%, var(--pastel-pink) 25%, var(--lavender) 75%, var(--sky-blue) 100%);
+  background: linear-gradient(to bottom, var(--cloud-pink) 0%, var(--sky-pink) 20%, var(--grass-green) 40%, var(--hill-green) 60%);
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
   height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,12 +55,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/* 
-cloud-pink: #fcd6c1
-sky-pink: #fabc9b
-dull-pink: #e6ab90
-grass-green: #e0de8c
-hill-green: #d0cf4f
-tree-green: #626701
-*/

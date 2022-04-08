@@ -64,7 +64,7 @@ function About() {
             <Typography
               className="about-content"
               variant="subtitle1"
-              sx={{ p: 1 }}
+              sx={{ p: 2 }}
             >
               Hi! I am Breania Harvey, but you can call me Bre.
               <br></br>
@@ -72,18 +72,19 @@ function About() {
               I am a Saint Louis, Missouri based full stack developer
               leveraging skill sets developed through an accelerated full stack
               web development bootcamp with Washington University in Saint
-              Louis. I excelled and completed the course with an A and excellent
+              Louis. I excelled and completed the course with a 95% and excellent
               reviews from my professors. From my time at Washington University
-              along with experience in coding through Codecademy and Edabit, I
+              along with previous experience through Codecademy and Edabit, I
               have adapted skills in multiple coding languages to adjust to
               changing dynamics and processes in different coding environments.
               Some of the languages I'm familiar with are JavaScript, React.js
-              and SQL. I am always keen to continue to build on those skills.
+              and SQL. I am always keen to continue to grow and build those skills.
               <br></br>
-              <br></br>I am an eager and persistent problem-solver with a desire
+              <br></br>
+              I am an eager and persistent problem-solver with a desire
               to succeed and build with a team to provide a positive user
               experience. When I'm not coding I'm usually reading, gaming, or
-              spending time with husband and 3 sons.
+              spending time with my husband and three sons.
               <br></br>
               <br></br>
               Thank you for taking the time to view my work! Please don't
