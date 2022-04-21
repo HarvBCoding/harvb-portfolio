@@ -15,10 +15,17 @@ function Portfolio() {
       >
         Projects I've Been Working On
       </Typography>
-      <Typography className="project-content" align="center" variant="h6" sx={{ pb: "2rem" }}>
+      <Typography
+        className="project-content"
+        align="center"
+        variant="h6"
+        sx={{ pb: "2rem" }}
+      >
         A compilation of projects I've created and collaborated on. Some
         projects are assignments from boot camp and others were for fun! I
         collaborated with other developers I networked with during boot camp.
+        Click on any of the images to be taken to the sites of the individual
+        projects or the icon to be taken to the repository on GitHub.
       </Typography>
       <Project />
     </Box>

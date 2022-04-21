@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {ImageList, ImageListItem, ImageListItemBar, IconButton} from '@mui/material';
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { grey } from '@mui/material/colors';
 
 function srcset(image, size, rows = 1, cols = 2) {
     return {
@@ -10,6 +11,7 @@ function srcset(image, size, rows = 1, cols = 2) {
 }
 
 function Project() {
+    
 
     const [projects] = useState([
         {
@@ -77,7 +79,7 @@ function Project() {
                   size="large"
                   onClick={() => (window.location.href = project.repoLink)}
                 >
-                  <GitHubIcon color="action" />
+                  <GitHubIcon sx={{color: grey[50]}} />
                 </IconButton>
               }
               actionPosition="left"
@@ -87,5 +89,5 @@ function Project() {
       </ImageList>
     );
 }
-// check to change icon button color to white
+
 export default Project;

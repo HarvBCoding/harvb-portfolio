@@ -10,29 +10,29 @@ import "./css/Contact.css";
 
 const ContactForm = styled(TextField)({
   "& label.Mui-focused": {
-    color: "#8A8AFF",
+    color: "#a0852c",
   },
   "& .MuiInput-underline:after": {
     borderBottomColor: "#2F61E1",
   },
   "& .MuiOutlinedInput-root": {
     "& fieldset": {
-      borderColor: "#8A8AFF",
+      borderColor: "#a0852c",
     },
     "&:hover fieldset": {
-      borderColor: "#CCCCFF",
+      borderColor: "#FFDF77",
     },
     "&.Mui-focused fieldset": {
-      borderColor: "#8A8AFF",
+      borderColor: "#a0852c",
     },
   },
 });
 
 const ColorButton = styled(Button)(({ theme }) => ({
     color: "var(--dark-grey)",
-    backgroundColor: "#92a4f775",
+    backgroundColor: "#D4AF3775",
     '&:hover': {
-        backgroundColor: "#92a4f725",
+        backgroundColor: "#FFDF7750",
         color: "var(--dark-grey)"
     }
 }))
@@ -87,7 +87,7 @@ function Contact() {
         className="title"
         variant="h2"
         align="center"
-        sx={{ p: 5 }}
+        sx={{ pt: 20, pb: 5 }}
         gutterBottom
       >
         Get in Touch
@@ -125,7 +125,13 @@ function Contact() {
       </div>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            sx={{ p: 4 }}
+          >
+            {errorMessage}
+          </Typography>
         </div>
       )}
       <ColorButton
