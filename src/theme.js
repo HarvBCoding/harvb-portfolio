@@ -18,7 +18,9 @@ const theme = createTheme({
             fontSize: "2.75rem",
         },
         h6: {
-            fontFamily: '"Give You Glory", Open Sans'
+            fontFamily: '"Give You Glory", Open Sans',
+            fontSize: "1.3rem",
+            fontWeight: "bold"
         },
         subtitle1: {
             fontFamily: '"Give You Glory", Open Sans',
