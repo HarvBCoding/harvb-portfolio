@@ -9,10 +9,6 @@ import "./css/About.css";
 
 const fadeInAnimation = keyframes`${fadeIn}`;
 
-const TitleFadeInDiv = styled.div`
-  animation: 1s ${fadeInAnimation};
-`;
-
 const ContentFadeInDiv = styled.div`
   animation: 5s ${fadeInAnimation};
 `;
@@ -20,7 +16,6 @@ const ContentFadeInDiv = styled.div`
 function About() {
   return (
     <Box sx={{ flexGrow: 1, px: 10, pt: 15, pb: 30, alignContent: "center" }}>
-      <TitleFadeInDiv>
         <Typography
           className="title"
           variant="h1"
@@ -29,7 +24,6 @@ function About() {
         >
           Meet Bre
         </Typography>
-      </TitleFadeInDiv>
       <ContentFadeInDiv>
         <Grid
           container
@@ -64,7 +58,7 @@ function About() {
             <Typography
               className="about-content"
               variant="subtitle1"
-              sx={{ p: 2 }}
+              sx={{ pl: 5 }}
             >
               Hi! I am Breania Harvey, but you can call me Bre.
               <br></br>

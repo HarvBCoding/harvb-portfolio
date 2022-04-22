@@ -87,10 +87,21 @@ function Contact() {
         className="title"
         variant="h2"
         align="center"
-        sx={{ pt: 20, pb: 5 }}
-        gutterBottom
+        sx={{ pt: 20, pb: 1.5 }}
       >
         Get in Touch
+      </Typography>
+      <Typography
+        className="content"
+        variant="subtitle1"
+        align="center"
+        sx={{ mx: 10, pb: 2 }}
+        gutterBottom
+      >
+        Thanks again for taking the time to view my portfolio and get to know me
+        a little better. If you'd like to get in touch with me for an
+        opportunity or to collaborate, please enter your information below to
+        send me a message.
       </Typography>
       <div>
         <ContactForm
@@ -125,11 +136,7 @@ function Contact() {
       </div>
       {errorMessage && (
         <div>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            sx={{ p: 4 }}
-          >
+          <Typography variant="subtitle1" align="center" sx={{ p: 4 }}>
             {errorMessage}
           </Typography>
         </div>

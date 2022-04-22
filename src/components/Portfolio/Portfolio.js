@@ -1,8 +1,16 @@
 import React from "react";
+import styled, { keyframes } from "styled-components";
+import { slideInUp } from "react-animations";
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 import Project from "../Project/Project";
 import "./css/Portfolio.css";
+
+const slideInUpAnimation = keyframes`${slideInUp}`;
+
+const SlideInUpDiv = styled.div`
+  animation: 2s ${slideInUpAnimation};
+`;
 
 function Portfolio() {
   return (
@@ -27,7 +35,9 @@ function Portfolio() {
         Click on any of the images to be taken to the sites of the individual
         projects or the icon to be taken to the repository on GitHub.
       </Typography>
-      <Project />
+      <SlideInUpDiv>
+        <Project />
+      </SlideInUpDiv>
     </Box>
   );
 }

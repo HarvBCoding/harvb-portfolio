@@ -5,21 +5,32 @@ import resumeFile from "../../assets/resume/2022BreResume.pdf";
 
 function Resume() {
     return (
-        <Container align="center" sx={{height: "1500px", width: "2000px", mb: 15}}>
-            <Typography className="title" align="center" variant="h2" sx={{pt: "10rem", pb: "4rem"}}>
-                Skills and Resume
-            </Typography>
-            <iframe 
-                id="resume-pdf" 
-                title="Bre Resume" 
-                src={resumeFile}
-                frameboarder="1"
-                scrolling="auto"
-                height="78%"
-                width="80%"
-                padding="5rem"></iframe>
+      <Container
+        align="center"
+        sx={{ height: "150vh", width: "100vw", mb: 10 }}
+      >
+        <Typography
+          className="title"
+          align="center"
+          variant="h2"
+          sx={{ pt: "10rem", pb: "4rem" }}
+        >
+          Skills and Resume
+        </Typography>
+
+        <Container align="center" sx={{ height: "115vh", width: "80vw"}}>
+          <embed
+            id="resume-pdf"
+            title="Bre Resume"
+            src={resumeFile}
+            frameboarder="2"
+            scrolling="auto"
+            height="100%"
+            width="100%"
+          ></embed>
         </Container>
-    )
+      </Container>
+    );
 }
 
 export default Resume;
