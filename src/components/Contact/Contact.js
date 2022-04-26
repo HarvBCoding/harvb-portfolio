@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 import { validateEmail } from "../../utils/helpers";
+import EmailJS from '@emailjs/browser';
 import "./css/Contact.css";
 
 const ContactForm = styled(TextField)({
@@ -71,7 +72,15 @@ function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formState);
+
+    EmailJS.send(process.env.USER_ID, process.env.TEMPLATE_ID, formState, process.env.PUBLIC_KEY)
+      .then((result) => {
+        alert("Message sent! We'll get back to you shortly!", result.text);
+      })
+      .catch((err) => {
+        alert("An error occured! Please try again!", err.text);
+      });
+    console.log( typeof formState);
   }
 
   return (
