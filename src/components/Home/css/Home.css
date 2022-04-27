@@ -1,7 +1,7 @@
 .home-page {
-  height: 105vh;
+  height: 110vh;
   width: 100vw;
-  background-image: url("https://res.cloudinary.com/dceprxjzq/image/upload/v1649123125/Portfolio/vecteezy-city-park-wooden-bench.jpg");
+  background-image: url("../../../assets/cover/vecteezy-city-park-wooden-bench.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
