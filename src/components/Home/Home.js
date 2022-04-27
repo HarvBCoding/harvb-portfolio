@@ -3,6 +3,7 @@ import styled, { keyframes } from "styled-components";
 import { fadeIn } from "react-animations";
 import Typography from "@mui/material/Typography";
 import Box from '@mui/material/Box';
+
 import "./css/Home.css";
 
 const fadeInAnimation = keyframes`${fadeIn}`;
@@ -17,10 +18,20 @@ const ContentFadeInDiv = styled.div`
   animation: 10s ${fadeInAnimation};
 `;
 
+const ImageBox = styled.div`
+  background-image: url("https://res.cloudinary.com/dceprxjzq/image/upload/c_fill,h_950/v1649123125/Portfolio/vecteezy-city-park-wooden-bench.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 30rem;
+`;
+
 const Home = () => {
   return (
     <Box className="home-page" sx={{ display: "flex-inline" }}>
-      <Box sx={{ pt: 30 }}>
+      <ImageBox sx={{ pt: 30 }}>
         <HiFadeInDiv>
           <Typography variant="h1" align="center" gutterBottom>
             Hi,
@@ -39,7 +50,7 @@ const Home = () => {
             Click around and get to know me a little better.
           </Typography>
         </ContentFadeInDiv>
-      </Box>
+      </ImageBox>
     </Box>
   );
 };
