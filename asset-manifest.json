@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/harvb-portfolio/static/css/main.2d613af9.css",
+    "main.css": "/harvb-portfolio/static/css/main.514ebaeb.css",
     "main.js": "/harvb-portfolio/static/js/main.85be33d9.js",
     "static/media/vecteezy-city-park-wooden-bench.jpeg": "/harvb-portfolio/static/media/vecteezy-city-park-wooden-bench.be218be6d65e37f44ff2.jpeg",
     "static/media/2022BreResume.pdf": "/harvb-portfolio/static/media/2022BreResume.7cd495a072c48c55e63b.pdf",
     "index.html": "/harvb-portfolio/index.html",
-    "main.2d613af9.css.map": "/harvb-portfolio/static/css/main.2d613af9.css.map",
+    "main.514ebaeb.css.map": "/harvb-portfolio/static/css/main.514ebaeb.css.map",
     "main.85be33d9.js.map": "/harvb-portfolio/static/js/main.85be33d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d613af9.css",
+    "static/css/main.514ebaeb.css",
     "static/js/main.85be33d9.js"
   ]
 }
