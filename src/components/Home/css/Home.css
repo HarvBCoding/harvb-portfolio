@@ -1,1 +1,8 @@
-
+.home-page {
+  height: 110vh;
+  width: 100vw;
+  background-image: url("../../../assets/cover/vecteezy-city-park-wooden-bench.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

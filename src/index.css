@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Handlee&family=Sacramento&family=Shalimar&display=swap");
 
-/* :root {
-  --pastel-pink: #f6c3b9;
-  --lavender: #c699f8;
-  --peach-pink: #f6dedb;
-  --sky-blue: #b2c5f4;
-  --darker-purple: #aa86d3;
-  --indigo-blue: #92a4f7;
-  --dark-grey: #5d5d5d;
-} */
-
 :root {
   --cloud-pink: #fcd6c1;
   --sky-pink: #fabc9b;
@@ -29,15 +19,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Sacramento', cursive;
-}
-
-.home-page {
-  height: 110vh;
-  width: 100vw;
-  background-image: url("../src/assets/cover/vecteezy-city-park-wooden-bench.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 @keyframes gradient {
