@@ -20,7 +20,7 @@ const ContentFadeInDiv = styled.div`
 const Home = () => {
   return (
     <Box className="home-page" sx={{ display: "flex-inline" }}>
-      <Box sx={{ pt: 20 }}>
+      <Box sx={{ pt: 30 }}>
         <HiFadeInDiv>
           <Typography variant="h1" align="center" gutterBottom>
             Hi,
