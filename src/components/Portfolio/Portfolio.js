@@ -19,7 +19,7 @@ function Portfolio() {
         className="title"
         align="center"
         variant="h2"
-        sx={{ pt: "4.5rem", pb: "3.5rem" }}
+        sx={{ pt: "4.5rem", pb: "2rem" }}
       >
         Projects I've Been Working On
       </Typography>
@@ -27,7 +27,7 @@ function Portfolio() {
         className="project-content"
         align="center"
         variant="h6"
-        sx={{ pb: "2rem" }}
+        sx={{ pb: "3rem" }}
       >
         A compilation of projects I've created and collaborated on. Some
         projects are assignments from boot camp and others were for fun! I

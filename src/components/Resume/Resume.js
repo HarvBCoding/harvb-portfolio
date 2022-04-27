@@ -18,7 +18,7 @@ function Resume() {
           Skills and Resume
         </Typography>
 
-        <Container align="center" sx={{ height: "115vh", width: "80vw"}}>
+        <Container align="center" sx={{ height: "120vh", width: "80vw"}}>
           <embed
             id="resume-pdf"
             title="Bre Resume"

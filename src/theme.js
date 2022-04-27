@@ -4,6 +4,7 @@ const theme = createTheme({
     typography: {
         h1: {
             fontFamily: '"Sacramento", Open Sans',
+            fontSize: '7rem',
             color: 'var(--dark-grey)'
         },
         h2: {
@@ -25,7 +26,7 @@ const theme = createTheme({
         subtitle1: {
             fontFamily: '"Give You Glory", Open Sans',
             fontWeight: 'Bold',
-            fontSize: '20px',
+            fontSize: '1.3rem',
             color: 'var(--dark-grey)'
         }
     },

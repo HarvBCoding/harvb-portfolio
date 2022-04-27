@@ -36,8 +36,8 @@ function About() {
         >
           <Grid
             item
-            md={12}
-            lg={7}
+            lg={12}
+            xl={7}
             sx={{ display: "flex", justifyContent: "center", pb: 10 }}
           >
             <img
@@ -47,8 +47,8 @@ function About() {
           </Grid>
           <Grid
             item
-            md={12}
-            lg={5}
+            lg={12}
+            xl={5}
             sx={{
               display: "flex",
               justifyContent: "center",

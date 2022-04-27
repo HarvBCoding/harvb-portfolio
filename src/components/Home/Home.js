@@ -4,8 +4,6 @@ import { fadeIn } from "react-animations";
 import Typography from "@mui/material/Typography";
 import Box from '@mui/material/Box';
 
-import "./css/Home.css";
-
 const fadeInAnimation = keyframes`${fadeIn}`;
 
 const HiFadeInDiv = styled.div`
@@ -23,9 +21,9 @@ const ImageBox = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 105vh;
   width: 100vw;
-  padding-top: 30rem;
+  padding-top: 20rem;
 `;
 
 const Home = () => {
