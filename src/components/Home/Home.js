@@ -23,7 +23,7 @@ const ImageBox = styled.div`
   background-size: cover;
   height: 105vh;
   width: 100vw;
-  padding-top: 20rem;
+  padding-top: 15rem;
 `;
 
 const Home = () => {
