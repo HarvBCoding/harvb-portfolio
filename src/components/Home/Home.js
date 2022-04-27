@@ -14,7 +14,7 @@ const NameFadeInDiv = styled.div`
   animation: 8s ${fadeInAnimation};
 `;
 const ContentFadeInDiv = styled.div`
-  animation: 12s ${fadeInAnimation};
+  animation: 10s ${fadeInAnimation};
 `;
 
 const Home = () => {
