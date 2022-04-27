@@ -21,7 +21,7 @@ const ImageBox = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 105vh;
+  height: 110vh;
   width: 100vw;
   padding-top: 15rem;
 `;
@@ -29,7 +29,7 @@ const ImageBox = styled.div`
 const Home = () => {
   return (
     <Box className="home-page" sx={{ display: "flex-inline" }}>
-      <ImageBox sx={{ pt: 30 }}>
+      <ImageBox>
         <HiFadeInDiv>
           <Typography variant="h1" align="center" gutterBottom>
             Hi,
