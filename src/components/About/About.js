@@ -83,7 +83,7 @@ function About() {
               <br></br>
               Thank you for taking the time to view my work! Please don't
               hesitate to reach out from the{" "}
-              <Link to="/contactme">Contact Me</Link> page.
+              <Link to="/harvb-portfolio/contactme">Contact Me</Link> page.
             </Typography>
           </Grid>
         </Grid>

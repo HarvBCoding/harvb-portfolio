@@ -19,11 +19,11 @@ function App() {
         <Nav />
         <div>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/contactme" component={Contact} />
+            <Route exact path="/harvb-portfolio/" component={Home} />
+            <Route exact path="/harvb-portfolio/about" component={About} />
+            <Route exact path="/harvb-portfolio/portfolio" component={Portfolio} />
+            <Route exact path="/harvb-portfolio/resume" component={Resume} />
+            <Route exact path="/harvb-portfolio/contactme" component={Contact} />
           </Switch>
         </div>
         <Footer />

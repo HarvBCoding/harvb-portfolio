@@ -11,19 +11,19 @@ const NavBar = styled(AppBar)(({ theme }) => ({
 const pages = [
   {
     name: "About",
-    link: "/about",
+    link: "/harvb-portfolio/about",
   },
   {
     name: "Portfolio",
-    link: "/portfolio",
+    link: "/harvb-portfolio/portfolio",
   },
   {
     name: "Resume",
-    link: "/resume",
+    link: "/harvb-portfolio/resume",
   },
   {
     name: "Contact Me",
-    link: "/contactme",
+    link: "/harvb-portfolio/contactme",
   },
 ];
 
@@ -33,7 +33,7 @@ const NavAppBar = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 0, pr: 3, py: 1 }}>
-            <Link to="/">
+            <Link to="/harvb-portfolio/">
               <Avatar
                 alt="Bre Harvey"
                 src="https://res.cloudinary.com/dceprxjzq/image/upload/c_fill,h_650,w_650/v1647915086/Portfolio/illustrated-cover-image.jpg"
