@@ -3,7 +3,7 @@
   
 
   ## Description
-  A website to showcase my projects and skill set. 
+  A website to showcase my projects and skill set to future collaborators and employers.
 
   ## Table of Contents
   * [Installation](#installation-instructions)
@@ -13,10 +13,11 @@
   
 
   ## Installation Instructions
-  After downloading the repo, run npm i from the terminal to install the required packages and libraries. Once the technologies are installed run npm start to run the app in development.
+  Navigate to the [Portfolio](https://harvbcoding.github.io/harvb-portfolio/)
 
   ## Usage
-  Navigate to the [Portfolio](https://harvbcoding.github.io/harvb-portfolio/)
+  Users can navigate the site to get to know me better and contact me for collaborations and other opportunities.
+  ![Portfolio Home](https://res.cloudinary.com/dceprxjzq/image/upload/v1652565265/Portfolio/Screen_Shot_2022-05-14_at_4.14.50_PM_midyp4.png)
 
   ## Technologies
   JavaScript, Express.js, Node.js, React.js, MUI library
