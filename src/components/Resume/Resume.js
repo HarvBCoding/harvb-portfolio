@@ -1,7 +1,6 @@
 import React from "react";
 import Container from '@mui/material/Container'
 import Typography from "@mui/material/Typography";
-import resumeFile from "../../assets/resume/2022BreResume.pdf";
 
 function Resume() {
     return (
@@ -18,16 +17,13 @@ function Resume() {
           Skills and Resume
         </Typography>
 
-        <Container align="center" sx={{ height: "120vh", width: "80vw"}}>
-          <embed
-            id="resume-pdf"
-            title="Bre Resume"
-            src={resumeFile}
-            frameboarder="2"
-            scrolling="auto"
+        <Container align="center" sx={{ height: "120vh", width: "80vw" }}>
+          <iframe
+            src="https://drive.google.com/file/d/1lgAQMw0gGOv9SRbCtkLJ6i7-CHhnFjeK/preview"
+            width="85%"
             height="100%"
-            width="100%"
-          ></embed>
+            allow="autoplay"
+          ></iframe>
         </Container>
       </Container>
     );
