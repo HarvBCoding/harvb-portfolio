@@ -25,9 +25,13 @@ const theme = createTheme({
         },
         subtitle1: {
             fontFamily: '"Give You Glory", Open Sans',
-            fontWeight: 'Bold',
+            fontWeight: 'bold',
             fontSize: '1.3rem',
             color: 'var(--dark-grey)'
+        },
+        subtitle2: {
+            fontWeight: "bold",
+            fontSize: "1.4rem"
         }
     },
 })

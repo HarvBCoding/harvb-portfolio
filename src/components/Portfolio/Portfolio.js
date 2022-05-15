@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { slideInUp } from "react-animations";
-import { Typography } from "@mui/material";
+import { Typography, Link } from "@mui/material";
 import Box from "@mui/material/Box";
 import Project from "../Project/Project";
 import "./css/Portfolio.css";
@@ -27,7 +27,7 @@ function Portfolio() {
         className="project-content"
         align="center"
         variant="h6"
-        sx={{ pb: "3rem" }}
+        sx={{ pb: "3rem", mx: "auto", width: "70rem" }}
       >
         A compilation of projects I've created and collaborated on. Some
         projects are assignments from boot camp and others were for fun! I
