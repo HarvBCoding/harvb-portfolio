@@ -27,6 +27,7 @@ function Resume() {
 
         <Container align="center" sx={{ height: "120vh", width: "80vw" }}>
           <iframe
+            title="bre-resume"
             src="https://drive.google.com/file/d/1lgAQMw0gGOv9SRbCtkLJ6i7-CHhnFjeK/preview"
             width="85%"
             height="100%"
