@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/harvb-portfolio/static/css/main.3669b882.css",
-    "main.js": "/harvb-portfolio/static/js/main.0792f6e2.js",
-    "static/media/2022BreResume.pdf": "/harvb-portfolio/static/media/2022BreResume.7cd495a072c48c55e63b.pdf",
+    "main.css": "/harvb-portfolio/static/css/main.99db0b15.css",
+    "main.js": "/harvb-portfolio/static/js/main.ff9fba50.js",
     "index.html": "/harvb-portfolio/index.html",
-    "main.3669b882.css.map": "/harvb-portfolio/static/css/main.3669b882.css.map",
-    "main.0792f6e2.js.map": "/harvb-portfolio/static/js/main.0792f6e2.js.map"
+    "main.99db0b15.css.map": "/harvb-portfolio/static/css/main.99db0b15.css.map",
+    "main.ff9fba50.js.map": "/harvb-portfolio/static/js/main.ff9fba50.js.map"
   },
   "entrypoints": [
-    "static/css/main.3669b882.css",
-    "static/js/main.0792f6e2.js"
+    "static/css/main.99db0b15.css",
+    "static/js/main.ff9fba50.js"
   ]
 }
