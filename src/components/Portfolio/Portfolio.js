@@ -35,9 +35,9 @@ function Portfolio() {
         Click on any of the images to be taken to the sites of the individual
         projects or the icon to be taken to the repository on GitHub.
       </Typography>
-      <SlideInUpDiv>
+
         <Project />
-      </SlideInUpDiv>
+        
     </Box>
   );
 }

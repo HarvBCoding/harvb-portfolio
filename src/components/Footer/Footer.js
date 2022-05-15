@@ -17,7 +17,7 @@ function Footer() {
           </Typography>
         </Grid>
 
-      <Grid item align="right" item xs={6}>
+      <Grid item align="right" xs={6}>
           <IconButton
             onClick={() =>
               (window.location.href = "https://github.com/harvbcoding")

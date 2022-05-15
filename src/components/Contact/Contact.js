@@ -105,7 +105,7 @@ function Contact() {
         className="content"
         variant="subtitle1"
         align="center"
-        sx={{ mx: 10, pb: 2 }}
+        sx={{ mx: "auto", pb: 2, width: "45rem" }}
         gutterBottom
       >
         Thanks again for taking the time to view my portfolio and get to know me

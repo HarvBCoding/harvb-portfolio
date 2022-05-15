@@ -21,7 +21,7 @@ function Project() {
             appLink: "https://harvb-shop-shop.herokuapp.com/",
             repoLink: "https://github.com/HarvBCoding/shop-shop",
             description: "A hypothetical ecommerce site with placeholder data that allows user to shop",
-            technologies: "MongoDB, Express, React, Node",
+            technologies: "MongoDB, Express, React, Node, GraphQL",
             rows: 2,
             cols: 3
         },
@@ -31,7 +31,7 @@ function Project() {
             appLink: "https://santasnicelist.herokuapp.com/",
             repoLink: "https://github.com/harvbcoding/santaslist",
             description: "A password protected holiday list to keep track of names, gifts and gift prices",
-            technologies: "JavaScript, SQL, Express, Node"
+            technologies: "JavaScript, SQL, Express, Node, CSS"
         },
         {
             image: "marauders_trivia",
@@ -46,7 +46,7 @@ function Project() {
             title: "Deep Thoughts",
             appLink: "https://harvb-deep-thoughts.herokuapp.com/",
             repoLink: "https://github.com/HarvBCoding/deep-thoughts",
-            description: "A hypothetical social media website where users can interact with posts from other users.",
+            description: "A hypothetical social media website where users can interact with each other.",
             technologies: "JavaScript, MongoDB, Apollo, GraphQL, React, Express, Node", 
         },
         {
@@ -54,7 +54,7 @@ function Project() {
             title: "Food Festival",
             appLink: "https://harvbcoding.github.io/food-festival/",
             repoLink: "https://github.com/HarvBCoding/food-festival",
-            description: "A website for a hypothetical regional food festival for users to view festival information.",
+            description: "A website for a hypothetical regional food festival to view festival information.",
             technologies: "JavaScript, JQuery, Bootstrap, HTML, CSS",
             cols: 3,
             rows: 2

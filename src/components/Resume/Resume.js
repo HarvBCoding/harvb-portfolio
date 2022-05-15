@@ -6,15 +6,23 @@ function Resume() {
     return (
       <Container
         align="center"
-        sx={{ height: "150vh", width: "100vw", mb: 10 }}
+        sx={{ height: "160vh", width: "100vw", mb: 10 }}
       >
         <Typography
           className="title"
           align="center"
           variant="h2"
-          sx={{ pt: "10rem", pb: "4rem" }}
+          sx={{ pt: "10rem" }}
+          gutterBottom
         >
           Skills and Resume
+        </Typography>
+        <Typography
+          align="center"
+          variant="subtitle1"
+          sx={{ mx: "auto", width: "50rem", pb: "3rem"}}
+        >
+          Below is my resume so that you can get to know more about my work history, skills and education. Please feel free to reach out to me with any questions.
         </Typography>
 
         <Container align="center" sx={{ height: "120vh", width: "80vw" }}>
